@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#5d1357"
+    android:orientation="vertical"
+    tools:context=".RegisterPage">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:letterSpacing="0.1"
+        android:text="Kayıt Ekranı"
+        android:textColor="#f40737"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TxtTc"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:maxLength="11"
+        android:background="@drawable/edittext1"
+
+        android:hint="TC"
+
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TxtAd"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+
+        android:hint="Ad"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TxtSoyad"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+
+        android:hint="Soyad"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/TxtCinsiyet"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+
+        android:hint="Cinsiyet (Erkek/Kadın)"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TxtDogumTarihi"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+
+        android:hint="Doğum Yılı"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/TxtMail"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+
+        android:hint="Mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/TxtTelefon"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+
+        android:hint="Telefon"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/TxtSifre"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnKayitOl"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnregister"
+        android:text="Kayıt Ol"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LblGiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:text="Zaten Hesabın Var Mı ? Giriş Yap"
+        android:textColor="#e5e007"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</LinearLayout>

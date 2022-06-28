@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#d2620d"
+    android:orientation="vertical"
+    tools:context=".JourneyDetail">
+
+
+
+    <EditText
+        android:id="@+id/Txtseferid1"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext1"
+
+        android:hint="SeferID"
+        android:enabled="false"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TxtNereden1"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+        android:hint="Nereden"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TxtNereye1"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+        android:hint="Nereye"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TxtZaman1"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+        android:hint="Tarih"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/TxtSaat1"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+        android:hint="Saat"
+        android:enabled="false"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+
+
+    <EditText
+        android:id="@+id/TxtFiyat1"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext1"
+        android:hint="Fiyat"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold" />
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnGuncelle1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnregister"
+        android:text="Güncelle"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnGeri1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btncikis"
+        android:text="İptal"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

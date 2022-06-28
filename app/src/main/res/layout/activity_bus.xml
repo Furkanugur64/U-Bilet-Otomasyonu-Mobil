@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB400"
+    tools:context=".Bus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/direksiyon"></ImageView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:text="U-BİLET "
+            android:textColor="@color/black"
+            android:textSize="40dp"></TextView>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp">
+
+        <ImageView
+            android:id="@+id/koltuk1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/seat"></ImageView>
+
+        <ImageView
+            android:id="@+id/koltuk2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/seat"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp">
+
+        <ImageView
+            android:id="@+id/koltuk3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/seat"></ImageView>
+
+        <ImageView
+            android:id="@+id/koltuk4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/seat"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="350dp">
+        <ImageView
+            android:id="@+id/koltuk5"
+            android:src="@drawable/seat"
+            android:layout_width="80dp"
+            android:layout_marginStart="80dp"
+            android:layout_height="80dp">
+        </ImageView>
+        <ImageView
+            android:id="@+id/koltuk6"
+            android:src="@drawable/seat"
+            android:layout_width="80dp"
+            android:layout_marginStart="80dp"
+            android:layout_height="80dp">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="450dp">
+
+        <ImageView
+            android:id="@+id/koltuk7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/seat"></ImageView>
+
+        <ImageView
+            android:id="@+id/koltuk8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/seat"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="550dp">
+
+        <ImageView
+            android:id="@+id/koltuk9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/seat"></ImageView>
+
+        <ImageView
+            android:id="@+id/koltuk10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="80dp"
+            android:src="@drawable/seat"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="650dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BtnGeribus"
+            android:layout_width="150dp"
+            android:layout_marginStart="30dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/btncikis"
+            android:paddingRight="20dp"
+            android:text="Geri Git"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BtnAnasayfam"
+            android:layout_width="180dp"
+            android:layout_marginStart="50dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/btnanasayfa"
+            android:paddingRight="20dp"
+            android:text="Ana Sayfa"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+     />
+
+
+</RelativeLayout>
