@@ -40,6 +40,10 @@ Not: Ödeme ekranında kütüphaneden dolayı screenshoot alınması kısıtland
 ![](https://i.hizliresim.com/ps081wi.jpg)
 
 ------------
+## Otobüs Bileti Seçme Ekranı
+![](https://i.hizliresim.com/ml9uih6.jpg)
+
+------------
 ## Ödeme Ekranı
 ![](https://i.hizliresim.com/t0huet0.jpg)
 
